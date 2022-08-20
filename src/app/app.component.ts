@@ -5,6 +5,17 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+//obrazky pre carusel
 export class AppComponent {
-  title = 'skuska';
+  title = 'carousel';
+  images = [
+{
+  imageSrc: 'assets/RWKHu9.webp',
+  imageAlt: 'banner1'
+},
+{
+  imageSrc: 'assets/RWLAmj.webp',
+  imageAlt: 'banner2'
+}
+  ]
 }
